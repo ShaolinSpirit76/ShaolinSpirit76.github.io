@@ -1,0 +1,91 @@
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+Style: HnK-Title,Lucida Sans,24,&H00FFFFFF,&H0000FFFF,&H00010108,&H82010108,-1,0,0,0,100,100,0,0,1,0.5,0,2,30,30,20,0
+Style: HnK-Main,Lucida Sans,13,&H00B3FFFF,&H0000FFFF,&H00000000,&H82000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,20,0
+Style: HnK-Narr,Lucida Sans,16,&H00DFDFDF,&H0000FFFF,&H00010108,&H82010108,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,20,0
+Style: HnK-notes,Lucida Sans,22,&H00FFFF00,&H0000FFFF,&H00010108,&H82010108,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.60,HnK-notes,,0000,0000,0000,,Sous-titres : codage et traduction par {\c&H0000FF&}Paul Compère{\c}\N
+Dialogue: 0,0:00:02.00,0:00:11.00,HnK-Title,,0000,0000,0000,,Destinée\N(la mort tranquille)
+Dialogue: 0,0:00:15.00,0:00:20.00,HnK-notes,,0000,0000,0000,,Les acteurs et leurs personnages
+Dialogue: 0,0:00:43.00,0:00:48.00,HnK-notes,,0000,0000,0000,,L'équipe
+Dialogue: 0,0:00:55.00,0:01:01.00,HnK-Main,,0000,0000,0000,,Les authentiques objets et costumes orientaux ont été fournis par le musée Heinrich Umlaff de Hamburg
+Dialogue: 0,0:01:02.00,0:01:06.00,HnK-Narr,,0000,0000,0000,,Ecrit et réalisé par {\c&H0000FF&}Fritz Lang{\c}\N
+
+Dialogue: 0,0:01:07.00,0:01:11.00,HnK-Narr,,0000,0000,0000,,A une certaine époque, à un certain lieu.
+Dialogue: 0,0:01:12.00,0:01:17.00,HnK-Narr,,0000,0000,0000,,Il était un hameau, dans une vallée\NEn dehors du temps, comme dans un rêve.
+Dialogue: 0,0:01:17.00,0:01:22.00,HnK-Narr,,0000,0000,0000,,Vinrent deux jeunes,\Nl'âme animée de la douce mélodie d'un éternel amour scintillant.
+Dialogue: 0,0:01:24.00,0:01:29.00,HnK-Narr,,0000,0000,0000,,Mais tel les feuilles dorées de l'automne\Nqui s'envolent dans le premier souffle de l'hiver,
+Dialogue: 0,0:01:29.00,0:01:34.00,HnK-Narr,,0000,0000,0000,,au carrefour du village tranquille, elle les attend en silence --\NLa mort...
+Dialogue: 0,0:04:15.00,0:04:19.00,HnK-Narr,,0000,0000,0000,,Une petite ville restée dans le passé --
+Dialogue: 0,0:04:30.00,0:04:36.50,HnK-Narr,,0000,0000,0000,,Chaque soir, les dignitaires locaux\Nse rassemblent à l'auberge de la Licorne Dorée\Npour leurs bonnets de nuit.
+Dialogue: 0,0:04:41.00,0:04:43.50,HnK-Narr,,0000,0000,0000,,Son éminence,\Nle maire.
+Dialogue: 0,0:04:51.00,0:04:54.50,HnK-Narr,,0000,0000,0000,,Sa sainteté,\Nle révérend.
+Dialogue: 0,0:05:04.00,0:05:07.00,HnK-Narr,,0000,0000,0000,,Son érudition,\Nle docteur.
+Dialogue: 0,0:05:20.00,0:05:24.00,HnK-Narr,,0000,0000,0000,,Son exactitude,\Nle notaire.
+Dialogue: 0,0:05:40.00,0:05:45.00,HnK-Narr,,0000,0000,0000,,Et le nouveau maître d'école --
+
+Dialogue: 0,0:05:55.50,0:06:00.00,HnK-Narr,,0000,0000,0000,,La sage figure du doyen suivait habituellement les nouvelles locales, mais dernièrement, 
+Dialogue: 0,0:06:00.00,0:06:05.00,HnK-Narr,,0000,0000,0000,,les dignitaires n'ont eu qu'un seul sujet de conversation -- l'étranger. 
+Dialogue: 0,0:06:05.00,0:06:08.00,HnK-Narr,,0000,0000,0000,,Encore et encore, seulement l'étranger.
+
+Dialogue: 0,0:06:16.00,0:06:20.50,HnK-Narr,,0000,0000,0000,,Un jour, l'étranger s'est approché du creuseur de tombe,
+Dialogue: 0,0:06:20.50,0:06:25.00,HnK-Narr,,0000,0000,0000,,pour lui demander la direction de la ville. Il sembla étrangement familier,
+Dialogue: 0,0:06:25.00,0:06:28.00,HnK-Narr,,0000,0000,0000,,bien qu'ils ne se soient jamais rencontrés.
+
+Dialogue: 0,0:07:23.00,0:07:26.50,HnK-Narr,,0000,0000,0000,,"A qui appartient le terrain qui jouxte le cimetierre ?"
+Dialogue: 0,0:07:33.00,0:07:37.00,HnK-Narr,,0000,0000,0000,,"Le Conseil de la ville l'a réservé pour agrandir le cimetierre."
+
+Dialogue: 0,0:08:07.00,0:08:10.50,HnK-Narr,,0000,0000,0000,,"J'ai du mal à croire que le Conseil de la ville te laissera avoir
+Dialogue: 0,0:08:10.50,0:08:14.00,HnK-Narr,,0000,0000,0000,,la future annexe du cimetierre. Pourquoi diable insistes-tu
+Dialogue: 0,0:08:14.00,0:08:16.00,HnK-Narr,,0000,0000,0000,,sur cette parcelle en particulier ?"
+
+Dialogue: 0,0:08:21.00,0:08:27.00,HnK-Narr,,0000,0000,0000,,"Pour me faire mon propre jardin, car j'ai voyagé loin et je suis las."
+Dialogue: 0,0:08:30.00,0:08:32.50,HnK-Narr,,0000,0000,0000,,"A côté du cimetierre ?!!"
+
+Dialogue: 0,0:08:35.00,0:08:39.00,HnK-Narr,,0000,0000,0000,,Il y a eu des débats virulents à la réunion du Conseil,
+Dialogue: 0,0:08:39.00,0:08:43.00,HnK-Narr,,0000,0000,0000,,mais finalement, l'or de l'étranger l'emporta sur les arguments.
+
+Dialogue: 0,0:09:17.00,0:09:21.50,HnK-Narr,,0000,0000,0000,,Sa requête fut acceptée à l'unanimité, et l'annexe du cimetierre
+Dialogue: 0,0:09:21.50,0:09:26.00,HnK-Narr,,0000,0000,0000,,fut légué à l'étranger pour 99 ans ----
+
+Dialogue: 0,0:09:32.00,0:09:36.00,HnK-Narr,,0000,0000,0000,,Mais les coffres municipaux bondés n'offraient pas un plaisir pur
+Dialogue: 0,0:09:36.00,0:09:40.00,HnK-Narr,,0000,0000,0000,,---- car l'étranger érigea un mur insurmontable tout autour de son jardin,
+Dialogue: 0,0:09:40.50,0:09:44.00,HnK-Narr,,0000,0000,0000,,comme une barrière entre lui-même et tous les autres.
+
+Dialogue: 0,0:09:59.00,0:10:01.75,HnK-Narr,,0000,0000,0000,,"Voyez par vous-mêmes, messieurs !
+Dialogue: 0,0:10:01.75,0:10:04.50,HnK-Narr,,0000,0000,0000,,J'ai fait tout le tour du mur,
+Dialogue: 0,0:10:04.50,0:10:07.25,HnK-Narr,,0000,0000,0000,,mais je n'ai trouvé aucune porte ni portail !"
+
+Dialogue: 0,0:10:48.00,0:10:51.00,HnK-Narr,,0000,0000,0000,,"Messieurs, vous luttez en vain !
+Dialogue: 0,0:10:51.00,0:10:54.00,HnK-Narr,,0000,0000,0000,,Moi seul connaît la porte qui ouvre ce mur !"
+
+Dialogue: 0,0:11:18.00,0:11:22.00,HnK-Narr,,0000,0000,0000,,"Et cela est-il vrai que même aujourd'hui,
+Dialogue: 0,0:11:22.00,0:11:26.00,HnK-Narr,,0000,0000,0000,,personne n'a trouvé l'entrée de ce mystérieux mur ?"
+
+Dialogue: 0,0:13:20.00,0:13:24.00,HnK-Narr,,0000,0000,0000,,"C'est notre tradition que chaque jeune couple prenne son premier verre
+Dialogue: 0,0:13:24.00,0:13:28.00,HnK-Narr,,0000,0000,0000,,dans les coupes de noces de la Licorne Dorée -- et vos visages révèlent
+Dialogue: 0,0:13:28.00,0:13:30.00,HnK-Narr,,0000,0000,0000,,que vous êtes de jolis coeurs !"
+
+Dialogue: 0,0:15:51.00,0:15:55.00,HnK-Narr,,0000,0000,0000,,"Excusez-moi, mais savez-vous où mon fiancée s'en est allé ?"
+
+Dialogue: 0,0:16:00.00,0:16:05.00,HnK-Narr,,0000,0000,0000,,"Ma chère enfant, votre fiancée est parti avec l'étranger qui s'était assis à notre table ----"
+
+Dialogue: 0,0:16:48.00,0:16:53.00,HnK-Narr,,0000,0000,0000,,Elle cherche son amour dans toutes les ruelles, elle erre en dehors de la ville
+Dialogue: 0,0:16:53.00,0:16:58.00,HnK-Narr,,0000,0000,0000,,jusqu'à ce que des pressentiments d'abattement lui parcourent les veines.
+
+Dialogue: 0,0:17:24.00,0:17:30.00,HnK-Narr,,0000,0000,0000,,"Prêtez l'oreille à ce que je dis, bonne gens : faites sonner 10 fois chaque clocher !
+Dialogue: 0,0:17:30.00,0:17:36.00,HnK-Narr,,0000,0000,0000,,Prenez garde au schnapps et au vin, ou vous finirez dans le règne du démon !"
+
+Dialogue: 0,0:17:57.00,0:18:03.00,HnK-Narr,,0000,0000,0000,,Certaines herbes tirents leurs mystérieux pouvoirs de la lumière magique
+Dialogue: 0,0:18:03.00,0:18:09.00,HnK-Narr,,0000,0000,0000,,de la pleine lune : l'Impatiente du Cap et le Sceau de Salomon, les baies
+Dialogue: 0,0:18:09.00,0:18:15.00,HnK-Narr,,0000,0000,0000,,de Goji et la fleur de Bach ---- Personne ne savait mieux cela que le vieil apothicaire.
+
+
+
+
+
+
