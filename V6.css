@@ -20,7 +20,7 @@ a:hover {
 color: #e65100;
 }
 
-.btn-primary:hover {
+.btn-dark:hover {
   background-color: #e65100;
 }
 
@@ -154,6 +154,22 @@ hr {
   background-color: rgb(238, 83, 17);
   width: 60px;
   height: 1px;
+}
+
+.fa-html5 {
+  color: #f16529;
+}
+
+.fa-css3-alt {
+  color: #5423f4;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-bootstrap {
+    color: #563d7c;
 }
 
 /* Fin css du footer */
@@ -302,7 +318,7 @@ margin-top: 3rem;
 
     .buttonScroll {
   display: inline-block;
-  background-color: #FF9800;
+  background-color: #000000;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -327,10 +343,10 @@ margin-top: 3rem;
 }
 .buttonScroll:hover {
   cursor: pointer;
-  background-color: #333;
+  background-color: #e65100;
 }
 .buttonScroll:active {
-  background-color: #555;
+  background-color: #e65100;
 }
 .buttonScroll.show {
   opacity: 1;
