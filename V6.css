@@ -282,6 +282,11 @@ margin-bottom: 3rem;
       margin-bottom: 2rem;
     }
 
+    .marge3 {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
   tr:last-child td:last-child {
     border-bottom:0;
   }
@@ -300,6 +305,9 @@ margin-bottom: 3rem;
   tbody tr:last-child td:last-child::before {
     border-bottom:0;
   }
+
+/* Fin responsive tableaux expérience */
+
 
 
 
