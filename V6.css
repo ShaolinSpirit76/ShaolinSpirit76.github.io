@@ -305,6 +305,7 @@ margin-bottom: 3rem;
   tbody tr:last-child td:last-child::before {
     border-bottom:0;
   }
+}
 
 /* Fin responsive tableaux expérience */
 
