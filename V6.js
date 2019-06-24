@@ -1,7 +1,7 @@
-  AOS.init();
-  
+// Scroll to top
+AOS.init();
 
-  var btn = $('.buttonScroll');
+var btn = $('.buttonScroll');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
@@ -13,8 +13,58 @@ $(window).scroll(function() {
 
 btn.on('click', function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+  $('html, body').animate({
+    scrollTop: 0
+  }, '300');
 });
+
+
+
+// Gestion des ancres
+
+$(document).ready(function() {
+  $(".clickInfo").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#experience").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickAutre").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#Autre").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickEnseignement").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#Enseignement").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickTop").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#presentation").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickTop1").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#menu1").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickContact").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#image7").offset().top
+    }, 2000);
+  });
+});
+
 
 
 // Div cachées à l'ouverture de la page d'accueil

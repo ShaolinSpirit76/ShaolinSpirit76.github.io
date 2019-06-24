@@ -17,7 +17,7 @@ body {
 }
 
 a:hover {
-color: #e65100;
+  color: #e65100;
 }
 
 .btn-dark:hover {
@@ -109,19 +109,6 @@ color: #e65100;
 }
 
 /* Fin CSS du header */
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS du Footer */
 footer {
   width: 100%;
@@ -165,28 +152,14 @@ hr {
 }
 
 .fa-js {
-    color: #f7df1e;
+  color: #f7df1e;
 }
 
 .fa-bootstrap {
-    color: #563d7c;
+  color: #563d7c;
 }
 
 /* Fin css du footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS des catégories Menu */
 #menu1 {
   line-height: 100%;
@@ -202,28 +175,26 @@ hr {
   text-align: center;
 }
 
-    /* Compétences */
-
+/* Compétences */
 #competences {
-margin-bottom: 20rem;
+  margin-bottom: 20rem;
 }
 
 #blockCpt {
-margin-top: 20rem;
+  margin-top: 20rem;
 }
 
-    /* Expérience */
-
+/* Expérience */
 #experience {
-margin-bottom: 20rem;
+  margin-bottom: 20rem;
 }
 
 #Informatique {
-margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #Autre {
-margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 #Enseignement {
@@ -251,77 +222,76 @@ margin-bottom: 3rem;
 }
 
 /* Pour rendre responsive les tableaux expérience */
-
 @media screen and (max-width:800px) {
   table {
-    display:flex;
+    display: flex;
   }
+
   thead {
-    width:20%;
-    min-width:90px;
+    width: 20%;
+    min-width: 90px;
   }
+
   tbody {
-    flex:1;
+    flex: 1;
   }
+
   tr {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
   }
-   td {
-    text-align:left;
-    border-right:0;
-    border-bottom:1px solid black;
+
+  td {
+    text-align: left;
+    border-right: 0;
+    border-bottom: 1px solid black;
   }
-    .marge1 {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
 
-    .marge2 {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
+  .marge1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 
-    .marge3 {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem;
-    }
+  .marge2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .marge3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
   tr:last-child td:last-child {
-    border-bottom:0;
+    border-bottom: 0;
   }
+
   tbody tr:not(:first-child) td::before {
-    position:absolute;
+    position: absolute;
     /* content:'Pseudo'; */
-    color:white;
-    font-weight:bold;
-    width:calc(20% - 13px);
-    min-width:90px;
-    padding:5px;
-    border-bottom:1px solid black;
-    margin-left:calc(-20% - 2px);
-    margin-top:-5px;
+    color: white;
+    font-weight: bold;
+    width: calc(20% - 13px);
+    min-width: 90px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    margin-left: calc(-20% - 2px);
+    margin-top: -5px;
   }
+
   tbody tr:last-child td:last-child::before {
-    border-bottom:0;
+    border-bottom: 0;
   }
 }
 
 /* Fin responsive tableaux expérience */
-
-
-
-
-
-
-    /* Diplômes */
-
+/* Diplômes */
 #diplomes {
-margin-bottom: 20rem;
+  margin-bottom: 20rem;
 }
 
 #blockDpl {
-margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .space {
@@ -337,50 +307,85 @@ margin-top: 3rem;
   color: #e65100;
 }
 
-    /* Parcours scolaire */
-
-    #ParcoursScolaire {
-    margin-bottom: 20rem;
-    }
-
-    #blockPscol {
+/* Pour rendre responsive les card diplômes */
+@media screen and (max-width:990px) {
+  .center-mr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     margin-top: 5rem;
-    }
+  }
 
-    #Formation {
-       background-color: rgba(255, 255, 255, 0.65);
-    }
-
-    /* Créations */
-
-    #creations {
-    margin-bottom: 20rem;
-    }
-
-    #blockCrt {
+  .center-ml {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     margin-top: 5rem;
-    }
+  }
+}
 
-    .create {
-        background-color: #dcd3b2;
-        margin-top: 5rem;
-    }
-
-    /* Loisirs */
-
-    #loisirs {
-    margin-bottom: 20rem;
-    }
-
-    #blockLsr {
+@media screen and (max-width:450px) {
+  .center-mr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
     margin-top: 5rem;
-    }
+  }
 
-    .KungFu {
-      background-color: rgba(255, 255, 255, 0.65);
-    }
+  .center-ml {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    margin-top: 5rem;
+  }
+}
 
-    .buttonScroll {
+/* Fin responsivité card diplômes */
+/* Parcours scolaire */
+#ParcoursScolaire {
+  margin-bottom: 20rem;
+}
+
+#blockPscol {
+  margin-top: 5rem;
+}
+
+#Formation {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* Créations */
+#creations {
+  margin-bottom: 20rem;
+}
+
+#blockCrt {
+  margin-top: 5rem;
+}
+
+.create {
+  background-color: #dcd3b2;
+  margin-top: 5rem;
+}
+
+/* Loisirs */
+#loisirs {
+  margin-bottom: 20rem;
+}
+
+#blockLsr {
+  margin-top: 5rem;
+}
+
+.KungFu {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.buttonScroll {
   display: inline-block;
   background-color: #000000;
   width: 50px;
@@ -396,6 +401,7 @@ margin-top: 3rem;
   visibility: hidden;
   z-index: 1000;
 }
+
 .buttonScroll::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -405,13 +411,16 @@ margin-top: 3rem;
   line-height: 50px;
   color: #fff;
 }
+
 .buttonScroll:hover {
   cursor: pointer;
   background-color: #e65100;
 }
+
 .buttonScroll:active {
   background-color: #e65100;
 }
+
 .buttonScroll.show {
   opacity: 1;
   visibility: visible;
