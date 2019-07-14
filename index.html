@@ -1,18 +1,39 @@
 <!DOCTYPE html>
+<!-- Spécification du langage de la page et du sens de lecture -->
 <html lang="fr" dir="ltr">
 
 <head>
 
+<!-- Prise en charge des accents et autres caractères spéciaux -->
   <meta charset="utf-8" />
+  <!-- Pour être responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Compatibilité internet explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- CDN de font awesome pour l'utilisation des fa-fa et des icones -->
+  <script src="https://kit.fontawesome.com/eaadffbb2b.js"></script>
+  <script src="assets/eaadffbb2b.js"></script>
+    <!-- CDN de Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Lien script pour animer -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link href="assets/aos.css" rel="stylesheet">
+  <!-- Lien pour le scroll to top -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="V6.css">
+  <link rel="stylesheet" href="assets/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link href="assets/css?family=Merriweather:400,900,900i.css" rel="stylesheet">
+<!-- Lien avec la page CSS (toujours après Bootstrap pour éviter les bug) -->
+  <link rel="stylesheet" href="assets/style.css">
+<!-- Lien éventuel pour l'utilisation d'une police -->
   <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link href="assets/merienda.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="assets/roboto.css" rel="stylesheet">
+   <!-- Lien pour placer une icone dans l'onglet, avant le titre de la page -->
   <link rel="icon" href="images/icon/2341.png">
+  <!-- Titre de la page affiché dans l'onglet -->
   <title>Curriculum Vitae de Paul Compère</title>
 
 </head>
@@ -292,7 +313,7 @@
   </div>
   <div class="col-4 mx-auto">
   <div class="progress">
-      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span class="yellow">Frameworks</span></div>
+      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span class="yellow">Frameworks et bibliothèques</span></div>
   </div>
   </div>
   
@@ -2198,13 +2219,24 @@
 
 
 
-
+<!-- CDN JavaScript toujours à la fin du body pour éviter les bug -->
+  <!-- D'abord le CDN de JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="assets/jquery.min.js"></script>
+  <!-- Puis le CDN du Popper.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="assets/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <!-- Et enfin le CDN de Bootstrap.js -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Sweet alert 2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="assets/sweetalert2@8.js"></script>
+<!-- Script pour l'animation -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="V6.js"></script>
+  <script src="assets/aos.js"></script>
+  <!-- Lien avec la page JS (toujours après les CDN de JQuery) -->
+  <script src="assets/script.js"></script>
 </body>
 
 </html>

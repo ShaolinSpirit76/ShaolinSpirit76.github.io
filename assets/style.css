@@ -3,7 +3,7 @@ body {
   /* Code pour que l'image reste fixe et responsive */
   margin: 0;
   padding: 0;
-  background: url(images/fond.jpg) no-repeat center fixed;
+  background: url(../images/fond.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   /* pour anciens Chrome et Safari */
   background-size: cover;
