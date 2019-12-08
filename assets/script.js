@@ -23,6 +23,20 @@ btn.on('click', function(e) {
 // Gestion des ancres
 
 $(document).ready(function() {
+  $(".clickOC").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#certifOC").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
+  $(".clickproScol").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#competences").offset().top
+    }, 2000);
+  });
+});
+$(document).ready(function() {
   $(".clickInfo").click(function() {
     $('html, body').animate({
       scrollTop: $("#experience").offset().top
@@ -69,6 +83,7 @@ $(document).ready(function() {
 
 // Div cachées à l'ouverture de la page d'accueil
 
+$("#certifOC").hide();
 $("#competences").hide();
 $("#experience").hide();
 $("#diplomes").hide();
@@ -81,6 +96,7 @@ $("#loisirs").hide();
 
 $(".home").click(function() {
   $("#head").show();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#experience").hide();
   $("#diplomes").hide();
@@ -92,8 +108,22 @@ $(".home").click(function() {
 
 // Afficher les compétences
 
+$(".OC").click(function() {
+  $("#head").hide();
+  $("#experience").hide();
+  $("#diplomes").hide();
+  $("#ParcoursScolaire").hide();
+  $("#creations").hide();
+  $("#loisirs").hide();
+  $("#competences").hide();
+  $("#certifOC").show();
+});
+
+// Afficher les compétences
+
 $(".cpt").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#experience").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
@@ -106,6 +136,7 @@ $(".cpt").click(function() {
 
 $(".exp").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
@@ -117,6 +148,7 @@ $(".exp").click(function() {
 // Afficher l'expérience dans l'informatique
 $(".informatique").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
@@ -128,6 +160,7 @@ $(".informatique").click(function() {
 // Afficher l'expérience Autre
 $(".autre").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
@@ -139,6 +172,7 @@ $(".autre").click(function() {
 // Afficher l'expérience dans l'enseignement
 $(".enseignement").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
@@ -150,6 +184,7 @@ $(".enseignement").click(function() {
 // Afficher les Diplômes
 $(".dpl").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#experience").hide();
   $("#ParcoursScolaire").hide();
@@ -161,6 +196,7 @@ $(".dpl").click(function() {
 // Afficher le parcours scolaire
 $(".pscol").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#experience").hide();
   $("#diplomes").hide();
@@ -172,6 +208,7 @@ $(".pscol").click(function() {
 // Afficher les créations
 $(".crt").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#experience").hide();
   $("#diplomes").hide();
@@ -183,11 +220,11 @@ $(".crt").click(function() {
 // Afficher les loisirs
 $(".lsr").click(function() {
   $("#head").hide();
+  $("#certifOC").hide();
   $("#competences").hide();
   $("#experience").hide();
   $("#diplomes").hide();
   $("#ParcoursScolaire").hide();
   $("#creations").hide();
   $("#loisirs").show();
-
 });

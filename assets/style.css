@@ -1,4 +1,5 @@
 /* CSS de la page d'accueil */
+
 body {
   /* Code pour que l'image reste fixe et responsive */
   margin: 0;
@@ -97,6 +98,7 @@ a:hover {
 }
 
 /* Fin barre Menu */
+
 /*En savoir plus*/
 #plus {
   margin-top: 10rem;
@@ -108,7 +110,21 @@ a:hover {
   font-size: 0.90rem;
 }
 
+#idCard {
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.90rem;
+}
+
+.idCard2 {
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.90rem;
+}
+
 /* Fin CSS du header */
+
 /* CSS du Footer */
 footer {
   width: 100%;
@@ -168,7 +184,7 @@ hr {
   width: 100% !important;
 }
 
-.home, .cpt, .exp, .dpl, .pscol, .crt, .lsr, .ctc {
+.home, .exp, .dpl, .pscol, .crt, .lsr, .ctc {
   font-family: 'Merienda', cursive;
   color: white;
   font-size: 1rem;
@@ -178,6 +194,10 @@ hr {
 /* Compétences */
 #competences {
   margin-bottom: 20rem;
+}
+
+#blockCtf {
+  margin-top: 3rem;
 }
 
 #blockCpt {
@@ -200,6 +220,12 @@ hr {
   font-weight: 900;
   font-size: 1rem;
 }
+
+.cptOC {
+  background-color: rgba(0, 0, 0, 0.85);
+  font-family: 'Merienda', cursive;
+}
+
 
 
 /* Expérience */

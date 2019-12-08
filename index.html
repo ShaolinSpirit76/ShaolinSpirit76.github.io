@@ -50,9 +50,9 @@
     <!-- Début de l'entête titre pro -->
 
     <div id="presentation" class="jumbotron col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-12">
-      <h1 id="titre" class="text-center text-white">Développeur Web et Web mobile</h1>
-      <h2 class="text-center text-white">Full Stack</h2>
-      <h2 id="P0" class="text-center font-weight-bold">~~ Applications - Game design - Intelligence Artificielle ~~<br /><br /></h2>
+      <h1 id="titre" class="text-center text-white">Développeur Full-Stack d'application Web et mobile</h1>
+      
+      <h2 id="P0" class="text-center font-weight-bold">~~ Applications - UX design - Intelligence Artificielle ~~<br /><br /></h2>
       <p id="P1" class="lead font-italic text-center text-white">Hier est derrière, demain est un mystère...<br /> Et aujourd'hui est un cadeau,<br />
         c'est pour cela qu'on l'appelle le présent.</p>
     </div>
@@ -70,11 +70,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <div class="cpt">
                 <a class="nav-link" href="#"><img src="images/competences.jpg" class="imgNavBar img-fluid" alt="vieux livres" width="100%" height="100%" /></a>
-                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 nav-link" href="#">Compétences</a>
               </div>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
             </li>
             <li class="nav-item dropdown">
               <div class="exp">
@@ -136,16 +142,15 @@
       <!-- Début de la présentation -->
       <div class="card mb-3 mx-auto" style="max-width: 755px;">
         <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-5">
             <img src="images/doomsday.jpg" class="card-img img-fluid" alt="androïd en position du lotus">
           </div>
-          <div id="textCard" class="col-md-8">
+          <div id="textCard" class="col-md-7">
             <div class="card-body">
               <h5 class="card-title text-white font-italic font-weight-bold">- En savoir plus -<br /><br /></h5>
               <p class="card-text text-white">Après un travail théorique stimulant sur l'intelligence artificielle
-                pour un mémoire de recherche de master, je souhaite désormais lier
-                une passion à mon avenir professionnel et vise le métier de concepteur-développeur multimédia.
-                Mes affinités se portent sur le game design, les applications mobiles et les Intelligences Artificielles.</p>
+                pour un mémoire de recherche de master en 2017, j'ai souhaité lier
+                une passion à mon avenir professionnel. C'est pourquoi j'ai entamé une formation de développeur web à La Manu (Le Havre) en 2019, qui m'a permis d'entrer dans le monde du développement et d'appartenir à la grande famille des codeurs. Mes affinités se portent sur le langage Python, le machine learning et la big data.</p>
               <p class="card-text"><small class="text-muted">Illustration de : <a href="https://www.facebook.com/chrissylafolle/" title="Aller sur la page" target="_blank"><br /> -"Chrissy-la-folle"</a><a
                     href="https://www.facebook.com/chrissylafolle/" title="Aller sur la page" target="_blank"><img src="images/fb.png" id="image5" class="img-fluid rounded" alt="logo facebook" width="5%" height="5%" /></a><a
                     href="https://www.instagram.com/chrissy_la_folle/" title="Aller sur la page" target="_blank"> -"Chrissy_la_folle"</a><a href="https://www.instagram.com/chrissy_la_folle/" title="Aller sur la page" target="_blank"><img
@@ -154,6 +159,24 @@
           </div>
         </div>
       </div>
+
+
+      <div id="idCard" class="card mx-auto" style="width: 22rem;">
+        <img src="images/visitCard.png" class="card-img-top img-fluid" alt="Carte de visite">
+        <div class="card-body">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#presentation2Example" aria-expanded="false" aria-controls="presentation2Example">
+                En savoir (encore) plus
+              </button>
+              <div class="collapse" id="presentation2Example">
+                  <div class="idCard2 card card-body">
+                      <p class="card-text text-white">J'ai une affection particulière pour tout ce qui touche à l'IA, bien sûr, mais plus précisément en lien avec le social, la santé (l'humain d'abord 🙂) et l'écologie (pour participer à la préservation de notre belle planète 🙂), car je pense que l'IA a des potentiels intéressants pour nous aider à évoluer dans ces domaines. Participer à construire un avenir durable pour les générations futures serait pour moi la plus belle des motivations au travail.</p>
+                  </div>
+                </div>
+          
+        
+        </div>
+      </div>
+
       <!-- Fin de la présentation -->
 
     </div>
@@ -173,6 +196,212 @@
 
   <!-- Compétences -->
 
+  <div id="certifOC">
+
+      <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
+          <a class="navbar-brand" href="#"></a>
+          <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <img src="images/viking.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+              </li>
+            </ul>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#menu">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Compétences
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                        <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                    </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Expérience
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickInfo informatique dropdown-item" href="#experience" style="color:#e65100;"><B>En informatique</B></a>
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickAutre autre dropdown-item" href="#Autre" style="color:#e65100;"><B>Autre</B></a>
+                  <div class="dropdown-divider"></div>
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickEnseignement enseignement dropdown-item" href="#Enseignement" style="color:#e65100;"><B>Dans l'enseignement</B></a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 pscol nav-link" href="#">Parcours scolaire</a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 crt nav-link" href="#">Créations</a>
+              </li>
+              <li class="nav-item">
+    
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 lsr nav-link" href="#">Loisirs</a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link" href="#image7">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item">
+                <img src="images/viking.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+
+        <div id="blockCtf">
+
+            <a class="buttonScroll"></a>
+      
+      
+            <h3><span class="info police badge col mx-auto"><br />Développement<br /><br /></span></h3>
+      
+            <div class="space bottom row no-gutters">
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
+                <div class="mx-auto card" style="width: 28rem;">
+                  <a href="certifOC/ProjetPython1.pdf" target="_blank"><img src="certifOC/ProjetPython1.jpg" class="img-fluid card-img-top" alt="Démarrer un projet en Python"
+                      title="Démarrer un projet en Python"></a>
+                      <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#python1" aria-expanded="false" aria-controls="python1">
+                          Compétences
+                        </button>
+                        <div class="collapse" id="python1">
+                            <div class="cptOC card card-body text-white">
+                              <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%">
+                                Utiliser le vocabulaire de base de Python</p>
+                              <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%"> 
+                                Poser les fondations d’un programme Python (comparaisons, conditions, fonctions, boucles)</p> 
+                              <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%"> 
+                                Manipuler des objets en Python </p>
+                            </div>
+                          </div>
+                </div>
+               
+              </div>
+              
+            </div>
+      
+      
+      
+            <!-- <h3><span class="info police badge col mx-auto"><br />Data<br /><br /></span></h3>
+      
+            <div class="space bottom row no-gutters">
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+                <div class="center-mr card" style="width: 28rem;">
+                  <a href="" target="_blank"><img src="" class="img-fluid card-img-top" alt=""
+                      title=""></a>
+                </div>
+              </div>
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+                <div class="center-ml card" style="width: 28rem;">
+                  <a href="" target="_blank"><img src="" class="img-fluid card-img-top" alt="" title=""></a>
+                </div>
+              </div>
+      
+            </div> -->
+      
+      
+            
+            <!-- <h3>
+              <div class="info police badge col mx-auto"><br />Pédagogie<br /><br /></div>
+            </h3>
+      
+            <div class="space bottom row no-gutters">
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+                <div class="center-mr card" style="width: 28rem;">
+                  <a href="" target="_blank"><img src="" class="img-fluid card-img-top" alt="" title=""></a>
+                </div>
+              </div>
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+                  <div class="center-mr card" style="width: 28rem;">
+                    <a href="" target="_blank"><img src="" class="img-fluid card-img-top" alt="" title=""></a>
+                  </div>
+                </div>
+            
+      
+            </div> -->
+      
+      
+            <h3>
+              <div class="info police badge col mx-auto"><br />Systèmes et réseaux<br /><br /></div>
+            </h3>
+      
+            <div class="space bottom row no-gutters">
+      
+                <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
+                    <div class="mx-auto card" style="width: 28rem;">
+                      <a href="certifOC/Windows10.pdf" target="_blank"><img src="certifOC/Windows10.jpg" class="img-fluid card-img-top" alt="Exploiter votre PC avec Windows 10"
+                          title="Exploiter votre PC avec Windows 10"></a>
+                          <button class="btn btn-dark btn-lg police text-white" type="button" data-toggle="collapse" data-target="#windows10" aria-expanded="false" aria-controls="windows10">
+                              Compétences
+                            </button>
+                            <div class="collapse" id="windows10">
+                                <div class="cptOC card card-body text-white">
+                                  <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%">
+                                    Identifier les fonctionnalités spécifiques à Windows 10 (applis, Cortana, appareils connectés)</p>
+                                  <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%"> 
+                                    Administrer un ordinateur sous Windows 10 (optimisation des performances, gestion des comptes utilisateurs)</p> 
+                                  <p><img src="images/icon/dragonBall.png" class="img-fluid" width="5%" height="5%"> 
+                                    Sécuriser les données et le système (sauvegarde, antivirus, cryptage) </p>
+                                </div>
+                              </div>
+                    </div>
+                   
+                  </div>
+      
+            </div>
+      
+      
+      
+            <!-- <h3>
+              <div class="info police badge col mx-auto"><br />Gestion de projet<br /><br /></div>
+            </h3>
+      
+            <div class="space bottom row no-gutters">
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float right">
+                <div class="center-mr card" style="width: 28rem;">
+                  <a href="" target="_blank"><img src="" class="img-fluid card-img-top"
+                      alt=""
+                      title=""></a>
+                </div>
+              </div>
+      
+              <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col float left">
+                <div class="center-ml card" style="width: 28rem;">
+                  <a href="" target="_blank"><img src="" class="img-fluid card-img-top" alt=""
+                      title="">
+                </div>
+              </div>
+      
+            </div> -->
+      
+          </div>
+      
+        </div>
+
+  
+
+
+
+
+
   <div id="competences">
 
     <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
@@ -190,6 +419,15 @@
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#menu">Accueil</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -264,7 +502,7 @@
   <div class="space row no-gutters">
     <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
   
-  <p class="cadre info text-white text-center">Appris en auto-didacte, grâce aux tutos <a href="https://openclassrooms.com" target="_blank" title="Cliquez pour voir">openclassrooms</a> en 2012-2013</p>
+  <p class="cadre info text-white text-center">Appris en auto-didacte, grâce aux tutos <a href="https://OpenClassrooms.com" target="_blank" title="Cliquez pour voir">OpenClassrooms</a> en 2012-2013</p>
   
   </div>
   </div>
@@ -373,7 +611,7 @@
   <div class="space row no-gutters">
   <div class="col-md-10 col-lg-5 col-sm-10 offset-sm-1 col mx-auto">
   
-  <p class="cadre info text-white text-center">Appris en auto-didacte, grâce aux tutos <a href="https://openclassrooms.com" target="_blank" title="Cliquez pour voir">openclassrooms</a> en 2012-2013</p>
+  <p class="cadre info text-white text-center">Appris en auto-didacte, grâce aux tutos <a href="https://OpenClassrooms.com" target="_blank" title="Cliquez pour voir">OpenClassrooms</a> en 2012-2013</p>
   
   </div>
   </div>
@@ -421,9 +659,26 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 cpt nav-link" href="#">Compétences</a>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
           </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Expérience
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickInfo informatique dropdown-item" href="#experience" style="color:#e65100;"><B>En informatique</B></a>
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickAutre autre dropdown-item" href="#Autre" style="color:#e65100;"><B>Autre</B></a>
+                <div class="dropdown-divider"></div>
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickEnseignement enseignement dropdown-item" href="#Enseignement" style="color:#e65100;"><B>Dans l'enseignement</B></a>
+              </div>
+            </li>
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
           </li>
@@ -1479,8 +1734,14 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 cpt nav-link" href="#">Compétences</a>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -1493,6 +1754,9 @@
               <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickEnseignement enseignement dropdown-item" href="#Enseignement" style="color:#e65100;"><B>Dans l'enseignement</B></a>
             </div>
           </li>
+          <li class="nav-item">
+              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
+            </li>
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 pscol nav-link" href="#">Parcours scolaire</a>
           </li>
@@ -1669,8 +1933,14 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 cpt nav-link" href="#">Compétences</a>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -1686,6 +1956,9 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
           </li>
+          <li class="nav-item">
+              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 pscol nav-link" href="#">Parcours scolaire</a>
+            </li>
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 crt nav-link" href="#">Créations</a>
           </li>
@@ -2004,56 +2277,65 @@
 
   <div id="creations">
 
-    <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#"></a>
-      <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto text-center">
-          <li class="nav-item">
-            <img src="images/viking16.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
-          </li>
-        </ul>
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 cpt nav-link" href="#">Compétences</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Expérience
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickInfo informatique dropdown-item" href="#experience" style="color:#e65100;"><B>En informatique</B></a>
-              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickAutre autre dropdown-item" href="#Autre" style="color:#e65100;"><B>Autre</B></a>
-              <div class="dropdown-divider"></div>
-              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickEnseignement enseignement dropdown-item" href="#Enseignement" style="color:#e65100;"><B>Dans l'enseignement</B></a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 pscol nav-link" href="#">Parcours scolaire</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 lsr nav-link" href="#">Loisirs</a>
-          </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link" href="#image7">Contact</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item">
-            <img src="images/viking16.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
+          <a class="navbar-brand" href="#"></a>
+          <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item">
+                <img src="images/viking16.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+              </li>
+            </ul>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Compétences
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                        <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                    </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Expérience
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickInfo informatique dropdown-item" href="#experience" style="color:#e65100;"><B>En informatique</B></a>
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickAutre autre dropdown-item" href="#Autre" style="color:#e65100;"><B>Autre</B></a>
+                  <div class="dropdown-divider"></div>
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickEnseignement enseignement dropdown-item" href="#Enseignement" style="color:#e65100;"><B>Dans l'enseignement</B></a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 dpl nav-link" href="#">Diplômes</a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 pscol nav-link" href="#">Parcours scolaire</a>
+              </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 crt nav-link" href="#">Créations</a>
+              </li>
+              <li class="nav-item">
+                  <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 lsr nav-link" href="#">Loisirs</a>
+                </li>
+              <li class="nav-item">
+                <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link" href="#image7">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item">
+                <img src="images/viking16.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+              </li>
+            </ul>
+          </div>
+        </nav>
 
 
     <div id="blockCrt">
@@ -2120,7 +2402,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title text-center font-weight-bold">KFTM</h5>
-                  <p class="card-text text-center font-italic"> Création d'un site-appli responsive pour la gestion d'une école de Kung-Fu. Réalisé en 3 mois, dans le cadre de ma formation.
+                  <p class="card-text text-center font-italic"> Création d'un site-appli responsive pour la gestion d'une école de Kung-Fu.
                    </p>
                   <div class="text-center">
                     <p class="card-text"><small class="text-muted">Mi-Juin à mi-Septembre 2019</small></p>
@@ -2266,8 +2548,14 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop home nav-link" href="#">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 cpt nav-link" href="#">Compétences</a>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Compétences
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickproScol cpt dropdown-item" href="#competences" style="color:#e65100;"><B>Projets d'étude</B></a>
+                    <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickOC OC dropdown-item" href="#certifOC" style="color:#e65100;"><B>Certificats OC</B></a>
+                </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -2289,6 +2577,9 @@
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 crt nav-link" href="#">Créations</a>
           </li>
+          <li class="nav-item">
+              <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickTop1 lsr nav-link" href="#">Loisirs</a>
+            </li>
           <li class="nav-item">
             <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link" href="#image7">Contact</a>
           </li>
